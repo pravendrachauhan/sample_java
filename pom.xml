@@ -28,7 +28,7 @@
 				<version>2.18.1</version>
 				<configuration>
 				<systemPropertyVariables>
-                <environment>${Job_Number}</environment>
+                <Job_Number>${Job_Number}</Job_Number>
             	</systemPropertyVariables>
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
